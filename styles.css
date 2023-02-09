@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    position: relative;
+    background-color: #d5eafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    height: 35px;
+    left: 55px;
+    top: 60px;
+}
+
+.container{
+    background-color: white;
+    height: 82vh;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-logo{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.container > h3{
+font-size: 20px;
+margin-bottom: 0;
+}
+
+span{
+    margin-left: 25px;
+}
+
+.container > p{
+    margin: 10px;
+    color: gray;
+}
+
+.form{
+margin-top: 10px;
+}
+
+label{
+    font-size: 15px;
+  }
+
+input{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+select{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+form > p {
+    margin: 10px 0;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations > div{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+}
+
+.terms{
+    position: absolute;
+    bottom: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;;
+}
